@@ -4,8 +4,8 @@ h1{
 }
 p{
         font:"Trebuchet MS", Helvetica, sans-serif;
-		color:#FF8000
-		text-align:center;
+		color:#FF8000;
+		font-size:25px;
 }
 .center{
 	margin-left: auto;
