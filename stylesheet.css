@@ -1,14 +1,75 @@
-h1{
-        font-family:Verdana;
-		text-align:center;
+@charset "UTF-8";
+
+*{
+   margin: 0em;
+   padding: 0em;
 }
-p{
-        font:"Trebuchet MS", Helvetica, sans-serif;
-		color:#FF8000;
-		font-size:25px;
+
+body{
+	background-color: #E8E8E8;
 }
-.center{
-	margin-left: auto;
-    margin-right: auto;
-    display: block
+
+header{
+	position: static;
+	height: 5em;
+	background: #fff;
+	margin: 0;
+}
+h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: left center;
+	color: #000000;
+	font-size: 3em;
+	}
+#name{
+	float: left;
+	margin: 0.25em 0 0 1em;
+}
+#mainp{
+	font-family:'Open Sans', sans-serif;
+	color: #000000;
+	font-size: 1.5em;
+	text-align: center;
+}
+#main{
+	background-color:#fff;
+	padding:2em;
+}
+#wrapper{
+	color: #FFFFFF;
+	max-width: 75em;
+	margin: 0 auto;
+}
+.css-slideshow {
+	max-width: 75em;
+	height: 45em;
+}
+.css-slideshow figure{
+  margin: 0;
+  background: #fff;
+  position: absolute;
+}
+figure:nth-child(1) {
+  animation: xfade 12s 6s infinite;
+}
+figure:nth-child(2) {
+  animation: xfade 12s 0s infinite;
+}
+
+@keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
