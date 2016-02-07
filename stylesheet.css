@@ -40,6 +40,10 @@ h2{
 	max-width: 75em;
 	margin: 0 auto;
 }
+#slideshow-images{
+	width:75em;
+	height:45em;
+}
 .css-slideshow {
 	max-width: 75em;
 	height: 45em;
@@ -72,4 +76,43 @@ figure:nth-child(2) {
   100% {
     opacity: 1;
   }
+}
+@media screen and (max-width: 481px){
+	#slideshow-images{
+	width:97.7%;
+	height:15em;
+	}
+	.css-slideshow {
+	width: 97.7%;
+	height: 15em;
+	}
+	.css-slideshow figure{
+  	margin: 0;
+  	background: hsla(0,0%,100%,0.00);
+  	position: absolute;
+	}
+	#wrapper{
+	color: #FFFFFF;
+	max-width: 95%;
+	margin: 0 auto;
+	}
+	h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: left center;
+	color: #000000;
+	font-size: 300%;
+	}
+	#name{
+	float: left;
+	margin: 2.5% 0 0 5%;
+	}
+	#mainp{
+	font-family:'Open Sans', sans-serif;
+	color: #000000;
+	font-size: 1.5em;
+	text-align: center;
+	}
+	#main{
+	background-color:#fff;
+	}
 }
