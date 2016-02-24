@@ -40,6 +40,9 @@ h2{
 	max-width: 75em;
 	margin: 0 auto;
 }
+#jsdemo {
+	color: #000000;
+}
 #slideshow-images{
 	width:75em;
 	height:45em;
