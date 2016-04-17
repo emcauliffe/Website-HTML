@@ -15,22 +15,14 @@ header{
 	background-color: #fff;
 	margin: 0;
 }
-h2{
+#name:hover{
+	color:#FF7700;
+}
+#name{
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align: left center;
 	color: #000000;
 	font-size: 3em;
-	}
-h2:hover{
-	color:#FF7700;
-}
-#right-banner{
-	float:right;
-	font-size:1em;
-	text-align:right;
-	font-family:Helvetica, sans-serif;
-}
-#name{
 	float: left;
 	margin: 0.25em 0 0 1em;
 }
