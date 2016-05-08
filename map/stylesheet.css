@@ -2,19 +2,20 @@
 /* CSS Document */
 #wrapper{
 	width: 100%;
-	margin:10px auto;
-	padding: 2px 2px 2px 2px;
+	margin:0px auto;
+	padding: 0px 2px 0px 2px;
 }
 #maparea{
 	height: 850px;
-	width: 99%;
+	width: 1500px;
 	margin:auto;
 	overflow: auto;
+	background-color:#211f5f;
 }
 #buttons{
 	margin: auto;
 	text-align:center;
-	padding: 10px;
+	padding: 7px;
 }
 #map{
 	margin:auto;
@@ -23,7 +24,200 @@ button{
 	border:none;
 	color:#FFFFFF;
 	background-color:#004DC5;
-	font-size:15px;
+	font-size:25px;
 	font-family:Helvetica, sans-serif;
 	text-align:center;
+}
+.cls-1 {
+  fill: #211f5f;
+}
+.cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+  fill-rule: evenodd;
+}
+
+.cls-2 {
+  fill: #f79768;
+  transition: 0.1s;
+}
+
+.cls-3 {
+  fill: #cb9832;
+  transition: 0.1s;
+}
+
+.cls-4 {
+  fill: #ca3827;
+  transition: 0.1s;
+}
+
+.cls-5 {
+  fill: #f26739;
+  transition: 0.1s;
+}
+
+.cls-6 {
+  fill: #f89838;
+  transition: 0.1s;
+}
+
+.cls-7 {
+  fill: #cd6632;
+  transition: 0.1s;
+}
+
+.cls-8 {
+  fill: #996632;
+  transition: 0.1s;
+}
+
+.cls-9 {
+  fill: #eb3f28;
+  transition: 0.1s;
+}
+
+.cls-10 {
+  fill: #f16667;
+  transition: 0.1s;
+}
+
+.cls-11 {
+  fill: #cbcb31;
+  transition: 0.1s;
+}
+
+.cls-12 {
+  fill: #fbf49c;
+  transition: 0.1s;
+}
+
+.cls-13 {
+  fill: #f69799;
+  transition: 0.1s;
+}
+
+.cls-14 {
+  fill: #981b1e;
+  transition: 0.1s;
+}
+
+.cls-15 {
+  fill: #d88236;
+  transition: 0.1s;
+}
+
+.cls-16 {
+  fill: #fdcc99;
+  transition: 0.1s;
+}
+.cls-2:hover{
+	fill:#000000;
+	stroke:#FFFFFF;
+	stroke-width:0.1px;
+}
+
+.cls-3:hover{
+	fill:#000000;
+	stroke:#FFFFFF;
+	stroke-width:0.1px;
+}
+
+.cls-4:hover{
+	fill:#000000;
+	stroke:#FFFFFF;
+	stroke-width:0.1px;
+}
+
+.cls-5:hover{
+	fill:#000000;
+	stroke:#FFFFFF;
+	stroke-width:0.1px;
+}
+
+.cls-6:hover{
+	fill:#000000;
+	stroke:#FFFFFF;
+	stroke-width:0.1px;
+}
+
+.cls-7:hover{
+	fill:#000000;
+	stroke:#FFFFFF;
+	stroke-width:0.1px;
+}
+
+.cls-8:hover{
+	fill:#000000;
+	stroke:#FFFFFF;
+	stroke-width:0.1px;
+}
+
+.cls-9:hover{
+	fill:#000000;
+	stroke:#FFFFFF;
+	stroke-width:0.1px;
+}
+
+.cls-10:hover{
+	fill:#000000;
+	stroke:#FFFFFF;
+	stroke-width:0.1px;
+}
+
+.cls-11:hover{
+	fill:#000000;
+	stroke:#FFFFFF;
+	stroke-width:0.1px;
+}
+
+.cls-12:hover{
+	fill:#000000;
+	stroke:#FFFFFF;
+	stroke-width:0.1px;
+}
+
+.cls-13:hover{
+	fill:#000000;
+	stroke:#FFFFFF;
+	stroke-width:0.1px;
+}
+
+.cls-14:hover{
+	fill:#000000;
+	stroke:#FFFFFF;
+	stroke-width:0.1px;
+}
+
+.cls-15:hover{
+	fill:#000000;
+	stroke:#FFFFFF;
+	stroke-width:0.1px;
+}
+
+.cls-16:hover{
+	fill:#000000;
+	stroke:#FFFFFF;
+	stroke-width:0.1px;
+}
+
+.cls-17, .cls-19, .cls-20 {
+  fill: none;
+  stroke: #243e90;
+  stroke-miterlimit: 2.6131;
+}
+
+.cls-17, .cls-19 {
+  stroke-width: 0.0394px;
+}
+
+.cls-18 {
+  fill: #fff;
+}
+
+.cls-20 {
+  stroke-width: 0.0397px;
+}
+footer {
+	margin:auto;
+	font-family:Helvetica, sans-serif;
+	text-align: center;
 }
