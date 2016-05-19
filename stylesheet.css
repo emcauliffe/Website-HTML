@@ -45,3 +45,16 @@ header{
 	width:75em;
 	height:45em;
 }
+#footer{
+	margin: auto;
+	align:center;
+	width:75em;
+}
+footer{
+	display:block;
+	align:center;
+}
+th, td{
+	padding: 15px;
+	text-align: center;
+}
